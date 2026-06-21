@@ -35,20 +35,20 @@ def load_resources():
     nlp_model = spacy.load("en_core_web_sm")
     
     models = {
-        "Random Forest": pickle.load(open("rf_model.pkl", "rb")),
-        "Logistic Regression": pickle.load(open("lr_model.pkl", "rb")),
-        "Support Vector Machine": pickle.load(open("svm_model.pkl", "rb")),
-        "Naive Bayes": pickle.load(open("model.pkl", "rb")) 
+        "Random Forest": pickle.load(open("model/rf_model.pkl", "rb")),
+        "Logistic Regression": pickle.load(open("model/lr_model.pkl", "rb")),
+        "Support Vector Machine": pickle.load(open("model/svm_model.pkl", "rb")),
+        "Naive Bayes": pickle.load(open("model/nb_model.pkl", "rb")) 
     }
     scalers = {
-        "Logistic Regression": pickle.load(open("lr_scaler.pkl", "rb")),
-        "Support Vector Machine": pickle.load(open("svm_scaler.pkl", "rb"))
+        "Logistic Regression": pickle.load(open("model/lr_scaler.pkl", "rb")),
+        "Support Vector Machine": pickle.load(open("model/svm_scaler.pkl", "rb"))
     }
     
-    ngram_model = pickle.load(open("ngram_model.pkl", "rb"))
-    w2v_model = pickle.load(open("w2v_model.pkl", "rb"))
-    ner_vectorizers = pickle.load(open("ner_vectorizers.pkl", "rb"))
-    label_encoder = pickle.load(open("label_encoder.pkl", "rb"))
+    ngram_model = pickle.load(open("model/ngram_model.pkl", "rb"))
+    w2v_model = pickle.load(open("model/w2v_model.pkl", "rb"))
+    ner_vectorizers = pickle.load(open("model/ner_vectorizers.pkl", "rb"))
+    label_encoder = pickle.load(open("model/label_encoder.pkl", "rb"))
     
     return nlp_model, models, scalers, ngram_model, w2v_model, ner_vectorizers, label_encoder
 

@@ -1,0 +1,19 @@
+Lean Left (Random Forest)
+Title: Man arrested after making electronic threats to conduct a mass shooting
+Source: usatoday
+
+Lean Right (Logistic Regression)
+Title: John Bolton's Advice for the 'Continuing Turmoil' of a Trump Administration
+Source: thedispatch
+
+Left (SVM)
+Title: Republican voter suppression efforts heavily target minority communities ahead of elections
+Source: MSNBC
+
+Center (Naive Bayes)
+Title: Federal Reserve announces 0.25% interest rate hike to combat inflation
+Source: reuters
+
+Right (Compare All)
+Title: Radical left-wing activists demand defunding of local police departments
+Source: Breitbart
